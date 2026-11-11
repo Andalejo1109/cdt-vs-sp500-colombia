@@ -1,0 +1,17 @@
+serie,url,filas,desde,hasta,descargado_bogota,nota
+DTF 90 días diaria (vigencia),"https://totoro.banrep.gov.co/nsi-jax-ws/rest/data/ESTAT,DF_DTF_DAILY_HIST,1.0/all/ALL/",15645,1984-01-16,2026-11-15,2026-11-11 14:03,BanRep SDMX DF_DTF_DAILY_HIST; % EA
+DTF 90 días mensual,"https://totoro.banrep.gov.co/nsi-jax-ws/rest/data/ESTAT,DF_DTF_MONTHLY_HIST,1.0/all/ALL/",490,1986-01-01,2026-10-01,2026-11-11 14:03,BanRep SDMX DF_DTF_MONTHLY_HIST; % EA promedio mensual
+TRM COP/USD,"https://totoro.banrep.gov.co/nsi-jax-ws/rest/data/ESTAT,DF_TRM_DAILY_HIST,1.0/all/ALL/",21786,1967-03-22,2026-11-12,2026-11-11 14:04,"BanRep SDMX DF_TRM_DAILY_HIST; cruce con datos.gov.co 32sa-8pi3 (400 obs, dif. máx 0.0000)"
+IPC Colombia (DANE),https://www.dane.gov.co/files/operaciones/IPC/oct2026/anex-IPC-Indices-oct2026.xlsx,286,2003-01-01,2026-10-01,2026-11-11 14:04,"Anexo índices oct-2026, base dic-2018=100, publicado 9-nov-2026"
+"IPC Colombia 1999-11..2002-12 (OCDE, fuente DANE)","https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0/COL.M.N.CPI.IX._T.N._Z?startPeriod=1999-11&endPeriod=2004-12",38,1999-11-01,2002-12-01,2026-11-11 14:04,Empalme por razón en 2003-01; ratio DANE/OCDE solape 2003-2004 rango 0.8555-0.8557
+CPI EE.UU. CPIAUCSL (BLS vía FRED),https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL,334,1999-01-01,2026-10-01,2026-11-11 14:04,"SA, 1982-84=100"
+Yahoo ^SP500TR,https://finance.yahoo.com/quote/^SP500TR/history,6777,1999-12-01,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo ^GSPC,https://finance.yahoo.com/quote/^GSPC/history,6777,1999-12-01,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo SPY,https://finance.yahoo.com/quote/SPY/history,6777,1999-12-01,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo SPYG,https://finance.yahoo.com/quote/SPYG/history,6566,2000-10-02,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo SMH,https://finance.yahoo.com/quote/SMH/history,6649,2000-06-05,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo BRK-B,https://finance.yahoo.com/quote/BRK-B/history,6777,1999-12-01,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo IEMG,https://finance.yahoo.com/quote/IEMG/history,3531,2012-10-24,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo EEM,https://finance.yahoo.com/quote/EEM/history,5933,2003-04-14,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Yahoo VTI,https://finance.yahoo.com/quote/VTI/history,6389,2001-06-15,2026-11-10,2026-11-11 14:04,"cierre ajustado (auto_adjust=True), yfinance 1.8.0"
+Superfinanciera tasas de captación CDT por entidad,https://www.datos.gov.co/resource/axk9-g2nh.json,369,2026-11-03,2026-11-09,2026-11-11 14:04,"datos.gov.co axk9-g2nh, UCA 1"

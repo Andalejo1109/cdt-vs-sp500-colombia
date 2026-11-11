@@ -1,0 +1,153 @@
+{
+  "fecha_corte": "2026-11-10",
+  "trm_corte": 3269.88,
+  "core_inicio": "2003-04-14",
+  "em_splice": {
+    "solape_desde": "2012-10-25",
+    "solape_hasta": "2026-11-10",
+    "n_dias": 3530,
+    "corr_diaria": 0.9967,
+    "corr_mensual": 0.9975,
+    "dif_cagr_anual": 0.0063,
+    "cagr_eem_solape": 0.0503,
+    "cagr_iemg_solape": 0.0565
+  },
+  "resumen_retornos": {
+    "CDT COP": {
+      "acumulado": 5.216706769250172,
+      "cagr": 0.07039274956445118,
+      "volatilidad_anual": 0.03045368143228371,
+      "peor_año": "2.0% (2021)",
+      "mejor_año": "13.4% (2023)",
+      "años_negativos": "0 de 26",
+      "max_drawdown": 0.0
+    },
+    "S&P 500 TR USD": {
+      "acumulado": 7.351938839960043,
+      "cagr": 0.08222327564365717,
+      "volatilidad_anual": 0.17967028731921317,
+      "peor_año": "-37.0% (2008)",
+      "mejor_año": "32.4% (2013)",
+      "años_negativos": "6 de 26",
+      "max_drawdown": -0.5525024106969596
+    },
+    "S&P 500 TR COP": {
+      "acumulado": 13.574807886778292,
+      "cagr": 0.10489072780918218,
+      "volatilidad_anual": 0.1939182780742742,
+      "peor_año": "-29.8% (2008)",
+      "mejor_año": "49.3% (2021)",
+      "años_negativos": "6 de 26",
+      "max_drawdown": -0.4547345335180002
+    },
+    "CDT USD": {
+      "acumulado": 2.5624177777220827,
+      "cagr": 0.048433042746034216,
+      "volatilidad_anual": 0.14778541259143607,
+      "peor_año": "-20.7% (2015)",
+      "mejor_año": "42.7% (2023)",
+      "años_negativos": "11 de 26",
+      "max_drawdown": -0.4653444902356968
+    },
+    "Core USD (desde 2003)": {
+      "acumulado": 18.722342990101122,
+      "cagr": 0.1348222333837461,
+      "volatilidad_anual": 0.19182444979787946,
+      "peor_año": "-40.0% (2008)",
+      "mejor_año": "39.4% (2009)",
+      "años_negativos": "5 de 22",
+      "max_drawdown": -0.5365993115593457
+    },
+    "Core COP (desde 2003)": {
+      "acumulado": 21.062316296384232,
+      "cagr": 0.14023197118653807,
+      "volatilidad_anual": 0.20601810756475408,
+      "peor_año": "-33.2% (2008)",
+      "mejor_año": "48.4% (2024)",
+      "años_negativos": "4 de 22",
+      "max_drawdown": -0.46580828200361635
+    },
+    "CDT COP 2003-hoy": {
+      "acumulado": 3.3687168099412483,
+      "cagr": 0.06453926266797416,
+      "max_drawdown": 0.0
+    },
+    "S&P 500 TR COP 2003-hoy": {
+      "acumulado": 13.802762920332615,
+      "cagr": 0.12109405884178637,
+      "max_drawdown": -0.4547345335180002
+    },
+    "S&P 500 TR USD 2003-hoy": {
+      "acumulado": 12.232752336335482,
+      "cagr": 0.11577511930679774,
+      "max_drawdown": -0.5525024106969596
+    },
+    "Core COP 2003-hoy": {
+      "acumulado": 21.062316296384235,
+      "cagr": 0.14023197118653807,
+      "max_drawdown": -0.46580828200361635
+    },
+    "Core USD 2003-hoy": {
+      "acumulado": 18.722342990101126,
+      "cagr": 0.1348222333837461,
+      "max_drawdown": -0.5365993115593457
+    }
+  },
+  "dca_meses_cdt_adelante_pct": 0.5139318885448917,
+  "dca_ultimo_mes_cdt_adelante": "2014-07",
+  "dca_tramos_cdt_adelante": [
+    "2000-02..2000-02",
+    "2000-10..2014-01",
+    "2014-03..2014-07"
+  ],
+  "dca2003_tramos_cdt_adelante_core": [
+    "2004-07..2006-03",
+    "2006-07..2006-10",
+    "2006-12..2006-12",
+    "2007-02..2007-07",
+    "2007-09..2013-09"
+  ],
+  "verificacion_amigo": {
+    "dtf_vigente": {
+      "tasa_ea": 10.79,
+      "vigencia": "2026-11-09..2026-11-15",
+      "dtf_mensual_oct2026": 10.52
+    },
+    "sp500_precio_ytd_usd": 0.09866776360839236,
+    "sp500_tr_ytd_usd": 0.10920565149902073,
+    "sp500_tr_ytd_cop": -0.03463078355435123,
+    "trm_31dic2025": 3757.08,
+    "trm_corte": 3269.88,
+    "sp500_tr_12m_usd": 0.11352063351893316,
+    "cdt_ytd_cop_modelo": 0.08230819734984629,
+    "inflacion_col_anual_oct2026": 0.06299420137058509,
+    "sfc_cdt_360 días": {
+      "promedio_ponderado_sistema": 12.236558043159759,
+      "entidades": 40,
+      "max_entidad": "RCI Colombia S.A. 13.30%",
+      "pct_entidades_>=13": 0.225,
+      "top5": {
+        "RCI Colombia S.A.": 13.3,
+        "Banco Pichincha S.A.": 13.28,
+        "La Hipotecaria": 13.23,
+        "\"KOA CF\"": 13.23,
+        "Findeter": 13.22
+      },
+      "semana": "2026-11-03..2026-11-09"
+    },
+    "sfc_cdt_90 días": {
+      "promedio_ponderado_sistema": 10.73694452356468,
+      "entidades": 39,
+      "max_entidad": "PLATA. S.A. COMPAÑÍA DE FINANCIAMIENTO 12.50%",
+      "pct_entidades_>=13": 0.0,
+      "top5": {
+        "PLATA. S.A. COMPAÑÍA DE FINANCIAMIENTO": 12.5,
+        "Mibanco S.A.": 12.11,
+        "Banco Popular": 12.02,
+        "Finandina Bic o Banco Finandina Bic o Finandina.": 12.01,
+        "Tuya": 11.89
+      },
+      "semana": "2026-11-03..2026-11-09"
+    }
+  }
+}
